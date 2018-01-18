@@ -1,12 +1,8 @@
 package com.luv2code.springdemo;
 
-public class Coach {
+public interface Coach {
 
-	public String getDailyWorkout(){
-		return "parent class - dailyWorkout";
-	};
-	public String getDailyFortune(){
-		return "parent class - dailyFortune";
+    public String getDailyWorkout();
 
-	};
+    public String getDailyFortune();
 }
